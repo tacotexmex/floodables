@@ -1,4 +1,4 @@
-local floodables = {
+floodables = {
   { group = "torch", drop = "default:torch", sound = "floodables_torch", gain = 0.8 },
   { group = "flora", sound = "floodables_grass", gain = 0.2 },
   { group = "wheat", drop = "farming:seed_wheat", sound = "floodables_grass", gain = 0.2 },
