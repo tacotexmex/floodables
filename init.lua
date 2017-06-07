@@ -25,7 +25,7 @@ for key,value in pairs(minetest.registered_nodes) do
 				local area = minetest.find_nodes_in_area(pmin,pmax,"air")
 					if table.getn(area) > 0 then
 						minetest.set_node(pos,{name = "air"})
-          local pos = area[math.random(table.getn(area))]
+          				local pos = area[math.random(table.getn(area))]
 						minetest.set_node(pos,{name = value.name})
 						minetest.check_single_for_falling(pos) -- make all floating dirt fall
 					end
