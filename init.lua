@@ -142,7 +142,7 @@ floodables.register_crops({
 -- Although the grass is inside the flora group, i prefered to add is in a crop
 -- function, just to be same with the dry grass, which has no group
 floodables.register_crops({
-	name = "adefault:grass",
+	name = "default:grass",
 	func_chance = 1,
 	drop_chance = 1,
 	sound = "floodables_grass",
